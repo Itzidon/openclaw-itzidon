@@ -1,0 +1,4 @@
+.env
+openclaw.json
+*.key
+*.pem
