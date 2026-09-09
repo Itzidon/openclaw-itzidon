@@ -98,9 +98,7 @@ skills/4geeks-auth/scripts/verify_auth.sh
 
 ✅ Autenticación válida — sesión activa
 
-Datos del usuario:
-  Nombre: Itziar Dondiz Lecube
-  Email: itziardondiz@outlook.es
+Datos del usuario recuperados correctamente.
 ```
 
 **Conclusión:** el token es válido y la sesión está activa. No se mostró el valor del token en ningún paso de la prueba.
