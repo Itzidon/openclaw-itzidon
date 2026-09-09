@@ -381,6 +381,8 @@ skills/4geeks-progress-summary/scripts/progress_summary.sh
 
 Skill con una única responsabilidad: **consultar los cohortes del estudiante en BreatheCode (4Geeks Academy) y mostrarlos agrupados por estado educativo** (ACTIVO, GRADUADO, SUSPENDIDO, BAJA), con nombre, slug, rol, fechas de inicio y fin.
 
+**Necesidad identificada:** quería poder consultar desde Kai en qué cohortes estoy o he estado sin tener que entrar manualmente en 4Geeks.
+
 ---
 
 ### 🔗 Endpoint utilizado
@@ -466,6 +468,8 @@ skills/4geeks-cohorts/scripts/list_cohorts.sh
 ### 📝 Descripción
 
 Skill con una única responsabilidad: **buscar contenido educativo en el catálogo de 4Geeks Academy (BreatheCode)**, filtrando por tipo de asset (proyectos, ejercicios, lecciones), texto, tecnología y dificultad. Muestra título, slug, tipo, dificultad, tecnologías y descripción de cada resultado.
+
+**Necesidad identificada:** quería poder buscar desde Kai material de estudio de 4Geeks por tecnología, dificultad o texto.
 
 ---
 
