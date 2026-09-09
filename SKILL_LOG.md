@@ -109,7 +109,7 @@ Datos del usuario recuperados correctamente.
 
 | Respuesta HTTP | Significado |
 |---|---|
-| **2xx** | Token válido, sesión activa. Se muestran nombre, email y academia (datos no sensibles). |
+| **2xx** | Token válido, sesión activa. Los datos del usuario se recuperan correctamente sin exponer información personal. |
 | **401** | Token inválido o inactivo. Se informa del error. |
 | Otro código | Respuesta inesperada. Se muestra una advertencia. |
 
