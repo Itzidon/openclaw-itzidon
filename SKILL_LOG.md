@@ -2,6 +2,42 @@
 
 ---
 
+## Configuración inicial
+
+- Se confirmó que la instancia de OpenClaw estaba activa y que era posible mantener una conversación con el agente Kai.
+- Se obtuvo el token de estudiante de 4Geeks/BreatheCode.
+- El token se almacenó de forma segura como variable de entorno `BREATHECODE_TOKEN` en `/root/.openclaw/.env`.
+- El valor real del token no se incluyó en ninguna skill ni se subió al repositorio de GitHub.
+
+---
+
+## Conversación de descubrimiento
+
+La integración con 4Geeks se inició mediante una conversación con OpenClaw.
+
+### Solicitud inicial
+
+> "Quiero darte la habilidad de conectarte a mi cuenta de 4Geeks usando mi token de estudiante, sin que tenga que desarrollar código de mi parte. ¿Qué debemos hacer?"
+
+### Qué sugirió OpenClaw
+
+OpenClaw propuso utilizar el token de estudiante para autenticarse contra la Student API de BreatheCode y mantener la credencial fuera de los archivos de las skills.
+
+Durante la conversación se consultó la referencia oficial de la Student API para identificar los endpoints y el formato correcto de autenticación.
+
+### Información necesaria
+
+Para realizar la integración fue necesario:
+
+- disponer del token de estudiante;
+- almacenarlo de forma segura como `BREATHECODE_TOKEN`;
+- consultar la referencia oficial de endpoints de BreatheCode;
+- comprobar que la autenticación funcionaba antes de construir las siguientes skills.
+
+A partir de esta conversación se creó la primera skill, `4geeks-auth`, y posteriormente las demás capacidades se fueron construyendo una a una mediante nuevas conversaciones con OpenClaw.
+
+---
+
 ## Skill 1 — 4geeks-auth
 
 ### 🗓️ Fecha de creación
