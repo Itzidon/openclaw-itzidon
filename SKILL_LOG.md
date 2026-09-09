@@ -36,6 +36,10 @@ Para realizar la integración fue necesario:
 
 A partir de esta conversación se creó la primera skill, `4geeks-auth`, y posteriormente las demás capacidades se fueron construyendo una a una mediante nuevas conversaciones con OpenClaw.
 
+### Resultado del descubrimiento
+
+Se decidió construir capacidades independientes, manteniendo una única responsabilidad por skill y utilizando únicamente los endpoints necesarios de la Student API de BreatheCode.
+
 ---
 
 ## Skill 1 — 4geeks-auth
